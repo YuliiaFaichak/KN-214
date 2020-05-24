@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
+        <title>Presline - Подарунки онлайн</title>   
+    </head>
+    <body id="body">   
+            <ul id="menu">
+                <li>
+                    <a href="index.html">Головна</a>
+                </li>
+                <li>
+                    <a href="#">Подарунки</a>
+                    <ul class="sub-menu">
+                        <li><a href="men.html">Чоловікам</a></li>
+                        <li><a href="women.html">Жінкам</a></li>
+                    </ul>
+                </li>
+                <li><a href="about.html">Про нас</a></li>
+                <li><a href="contact.html">Контакти</a></li>
+                <li><button id="button" alt="змінити тему">Змінити тему</button></li>
+            </ul>
+
+        <h1 class="item1">
+          <blockquote>Presline</blockquote>
+        </h1>
+
+        <div id="land">
+            <p>Свято настало а Ви забули про подарунок? Ми з радістю допоможемо</p>
+        </div>
+        <br/>
+        <div class="content">
+                <form id="form1" method="post" action="#">
+                    <input id="num" maxlength="13" size="40" class="textbox" placeholder="Номер телефону"> <br/>
+                    <input id="name" type="text" class="textbox" / placeholder="Ім'я"> <br/>
+                    <input id="secondName"type="text" class="textbox" / placeholder="Прізвище"> <br/>
+                    <div class="check">
+                        <p id="stat">Cтать</p>
+                        <table>
+                            <tr>
+                                <td>
+                                    <div id="man">Чоловік</div>
+                                </td>
+                                <td>
+                                    &nbsp;&nbsp;&nbsp;<input id="checkbox1" type="checkbox" class="checkbox" name="inputtext2" value="" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div id="woman">Жінка&nbsp;&nbsp;&nbsp;</div>
+                                </td>
+                                <td>
+                                    &nbsp;&nbsp;&nbsp;<input id="checkbox2" type="checkbox" class="checkbox" name="inputtext2" value="" />
+                                </td>
+                            </tr>
+                        </table><br/>
+                    </div>
+                    <input id="inputsubmit1" type="submit" name="inputsubmit1" value="Відправити" onClick="valid(document.getElementById('form1'))"/>  
+                
+                </form>
+                
+                <div id="info">
+                    <p>Ми знаємо наскільки незручно, коли забуваєш про свято, а особливо коли це свято не чужої людини. Тому ми допоможемо! 
+                        Поспілкувавшись декілька хвилин, ми підберемо варіанти для подарунку, з-поміж яких ви виберете той який вам по душі а ми запакуємо та доставимо 
+                        за потрібною адресою
+                    </p>
+                </div>
+            </div>
+        
+
+        <script src="script.js"></script>
+    </body>
+</html>
